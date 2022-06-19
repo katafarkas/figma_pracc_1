@@ -1,0 +1,60 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: main-bg-color;
+}
+body button, body input[type=submit], body input[type=reset] {
+  background: none;
+  color: inherit;
+  border: none;
+  padding: 0;
+  font: inherit;
+  cursor: pointer;
+  outline: inherit;
+}
+body h1, body h2, body h3, body h4, body h5, body h6, body p, body a, body span, body button {
+  font-family: "Roboto", sans-serif;
+}
+body p {
+  color: #505F98;
+}
+body .container {
+  max-width: 912px;
+  margin: 0 auto;
+}
+body .main-btn {
+  background-color: #111B47;
+  color: white;
+  width: 160px;
+  height: 26px;
+  font-size: 12px;
+  font-weight: 500;
+  border-radius: 2px;
+}
+body #main-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+body #main-nav #link-holder {
+  width: 230px;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+body #main-nav #link-holder a {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #505F98;
+  text-decoration: none;
+}
+body #main-nav #logo-holder #logo {
+  width: 80px;
+  height: 40px;
+}
+
+/*# sourceMappingURL=style.css.map */
