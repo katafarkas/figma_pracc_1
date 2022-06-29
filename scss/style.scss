@@ -2,6 +2,7 @@ $main-bg-color: #ffffff;
 $paragraph-color: #505F98;
 $main-btn-color: #111B47;
 $link-color: #505F98;
+$secondary-dark-color: #091133;
 
 
 body {
@@ -42,6 +43,17 @@ body {
     border-radius: 2px;
   }
 
+  .secondary-btn {
+    background-color: transparent;
+    color: $secondary-dark-color;
+    width: 160px;
+    height: 26px;
+    font-size: 12px;
+    font-weight: 500;
+    border: 2px $secondary-dark-color solid;
+    border-radius: 2px;
+  }
+
   #main-nav {
     display: flex;
     justify-content: space-between;
@@ -71,5 +83,9 @@ body {
         height: 40px;
       }
     }
+  }
+
+  h1 {
+    color: #091133;
   }
 }
