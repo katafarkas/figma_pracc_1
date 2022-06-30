@@ -1,8 +1,8 @@
 $main-bg-color: #ffffff;
 $paragraph-color: #505F98;
 $main-btn-color: #111B47;
-$link-color: #505F98;
 $secondary-dark-color: #091133;
+
 
 
 body {
@@ -36,8 +36,8 @@ body {
   .main-btn {
     background-color: $main-btn-color;
     color: white;
-    width: 160px;
-    height: 26px;
+    width: 189px;
+    height: 36px;
     font-size: 12px;
     font-weight: 500;
     border-radius: 2px;
@@ -46,12 +46,31 @@ body {
   .secondary-btn {
     background-color: transparent;
     color: $secondary-dark-color;
-    width: 160px;
-    height: 26px;
+    width: 189px;
+    height: 36px;
     font-size: 12px;
     font-weight: 500;
     border: 2px $secondary-dark-color solid;
     border-radius: 2px;
+  }
+
+  .nav-btn {
+    background-color: $main-btn-color;
+    color: white;
+    width: 160px;
+    height: 26px;
+    font-size: 12px;
+    font-weight: 500;
+    border-radius: 2px;
+  }
+
+  #designer {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 790px;
+    height: auto;
+    z-index: -1;
   }
 
   #main-nav {
@@ -72,7 +91,7 @@ body {
         font-weight: 400;
         font-size: 14px;
         line-height: 24px;
-        color: $link-color;
+        color: $paragraph-color;
         text-decoration: none;;
       }
     }
@@ -85,7 +104,69 @@ body {
     }
   }
 
-  h1 {
-    color: #091133;
+  #hero {
+    width: 50%;
+    margin: 150px 0 450px 0;
+
+    h1 {
+      font-size: 35px;
+      color: $secondary-dark-color;
+      font-weight: 500;
+      margin: 10px 0;
+    }
+
+    p {
+      font-size: 15px;
+      color: $paragraph-color;
+      line-height: 30px;
+    }
+
+    .btn-holder {
+      margin-top: 50px;
+
+      button {
+        margin-right: 20px;
+      }
+    }
+  }
+
+  #boxes {
+    .box {
+      display: flex;
+      margin-bottom: 200px;
+      gap: 50px;
+      
+      .text {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        p {
+          line-height: 30px;
+        }
+
+        .icons-holder {
+          display: flex;
+
+          h3 {
+            font-size: 14px;
+          }
+
+          p {
+            font-size: 10px;
+            line-height: 15px;
+          }
+        }
+      }
+
+      .pic {
+        display: flex;
+        align-items: flex-end;
+
+        img {
+          width: 430px;
+          height: auto;
+        }
+      }
+    }
   }
 }

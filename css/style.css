@@ -25,8 +25,8 @@ body .container {
 body .main-btn {
   background-color: #111B47;
   color: white;
-  width: 160px;
-  height: 26px;
+  width: 189px;
+  height: 36px;
   font-size: 12px;
   font-weight: 500;
   border-radius: 2px;
@@ -34,12 +34,29 @@ body .main-btn {
 body .secondary-btn {
   background-color: transparent;
   color: #091133;
-  width: 160px;
-  height: 26px;
+  width: 189px;
+  height: 36px;
   font-size: 12px;
   font-weight: 500;
   border: 2px #091133 solid;
   border-radius: 2px;
+}
+body .nav-btn {
+  background-color: #111B47;
+  color: white;
+  width: 160px;
+  height: 26px;
+  font-size: 12px;
+  font-weight: 500;
+  border-radius: 2px;
+}
+body #designer {
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 790px;
+  height: auto;
+  z-index: -1;
 }
 body #main-nav {
   display: flex;
@@ -66,8 +83,57 @@ body #main-nav #logo-holder #logo {
   width: 80px;
   height: 40px;
 }
-body h1 {
+body #hero {
+  width: 50%;
+  margin: 150px 0 450px 0;
+}
+body #hero h1 {
+  font-size: 35px;
   color: #091133;
+  font-weight: 500;
+  margin: 10px 0;
+}
+body #hero p {
+  font-size: 15px;
+  color: #505F98;
+  line-height: 30px;
+}
+body #hero .btn-holder {
+  margin-top: 50px;
+}
+body #hero .btn-holder button {
+  margin-right: 20px;
+}
+body #boxes .box {
+  display: flex;
+  margin-bottom: 200px;
+  gap: 50px;
+}
+body #boxes .box .text {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+body #boxes .box .text p {
+  line-height: 30px;
+}
+body #boxes .box .text .icons-holder {
+  display: flex;
+}
+body #boxes .box .text .icons-holder h3 {
+  font-size: 14px;
+}
+body #boxes .box .text .icons-holder p {
+  font-size: 10px;
+  line-height: 15px;
+}
+body #boxes .box .pic {
+  display: flex;
+  align-items: flex-end;
+}
+body #boxes .box .pic img {
+  width: 430px;
+  height: auto;
 }
 
 /*# sourceMappingURL=style.css.map */
